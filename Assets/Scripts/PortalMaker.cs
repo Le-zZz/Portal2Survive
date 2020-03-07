@@ -37,7 +37,7 @@ public class PortalMaker : MonoBehaviour
             time += Time.deltaTime;
         }
 
-        if (time == timeEnd)
+        if (time >= timeEnd)
         { 
             launchTimer = false; 
             canShoot = true; 

@@ -6,7 +6,7 @@ using UnityEngine;
 public class Portal : MonoBehaviour
 {
 
-    [SerializeField] private float time = 4;
+    [SerializeField] private float time = 5;
     
 
     void Update()
