@@ -11,6 +11,7 @@
           <e p="PlayerController.cs" t="Include" />
           <e p="Portal.cs" t="Include" />
           <e p="PortalMaker.cs" t="Include" />
+          <e p="Teleportation.cs" t="Include" />
         </e>
         <e p="Sprites" t="Include">
           <e p="rpg-dungeon-pack v1.1(wonderdot)" t="Include">
