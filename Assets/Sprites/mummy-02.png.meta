@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 96e1279bfb9e98b45abfe95cef010b4f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4276423155993316094
+    second: mummy-02_0
+  - first:
+      213: -114910859737136551
+    second: mummy-02_1
+  - first:
+      213: 7069619884438647473
+    second: mummy-02_2
+  - first:
+      213: -7709571408697089311
+    second: mummy-02_3
+  - first:
+      213: 7679184586583435386
+    second: mummy-02_4
+  - first:
+      213: 2855317184527310348
+    second: mummy-02_5
+  - first:
+      213: -3080995104336500148
+    second: mummy-02_6
+  - first:
+      213: -2451157561893851801
+    second: mummy-02_7
+  - first:
+      213: -1185740240751763142
+    second: mummy-02_8
+  - first:
+      213: -5118824335782816069
+    second: mummy-02_9
+  - first:
+      213: -685064973545348916
+    second: mummy-02_10
+  - first:
+      213: 5148746090117928298
+    second: mummy-02_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +106,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mummy-02_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 193
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e53faaefcae424cae61054a24cbb38
+      internalID: 4276423155993316094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 195
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6accef5edea29458128e6cbbeb88bb
+      internalID: -114910859737136551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 193
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7de87c5679485f4494e3912ac568b53
+      internalID: 7069619884438647473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 129
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1079ae513addbff43bd95100142e9349
+      internalID: -7709571408697089311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 131
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21005d6d6f6470a41a30617b4ec52c5b
+      internalID: 7679184586583435386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 129
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ca94e25d57ba64b8fb2f8b119ec328
+      internalID: 2855317184527310348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 65
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ed1ae07ffe2a44cbaf937a2f063d34
+      internalID: -3080995104336500148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 67
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3c102d1a1da5a49976c6a1191007b2
+      internalID: -2451157561893851801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 65
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5be9b6e0cd98da4f9db64a99e86cc68
+      internalID: -1185740240751763142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fda1d862936914098d7942f4df8470
+      internalID: -5118824335782816069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_10
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 3
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28395c62082221d44bbc5cd6b9fd8a63
+      internalID: -685064973545348916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummy-02_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6d2b2c6d4c7f645adccacba823e77a
+      internalID: 5148746090117928298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
