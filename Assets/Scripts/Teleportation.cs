@@ -6,9 +6,10 @@ using UnityEngine;
 public class Teleportation : MonoBehaviour
 {
 
-    private GameObject exit = null;
-    
-    
+    [SerializeField] GameObject exitRed;
+    [SerializeField] GameObject exitBlue;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,14 +26,12 @@ public class Teleportation : MonoBehaviour
     {
         if (other.gameObject.tag == "redPortal")
         {
-            exit = GameObject.FindWithTag("blueTransform");
-            transform.position = exit.transform.position;
+            transform.position = exitBlue.transform.position;
         }
         
         if (other.gameObject.tag == "bluePortal")
         {
-            exit = GameObject.FindWithTag("redTransform");
-            transform.position = exit.transform.position;
+            transform.position = exitRed.transform.position;
         }
     }
 }
