@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class PortalMaker : MonoBehaviour
 {
-    public Transform spawnPoint;
-    public Transform initialPoint;
+    [SerializeField] Transform spawnPoint;
+    [SerializeField] Transform initialPoint;
 
-    public GameObject portal;
+    [SerializeField] GameObject portal;
     
     //public AudioSource bulletSound;
     
@@ -51,11 +51,24 @@ public class PortalMaker : MonoBehaviour
 
     public void Shot()
     {
-        /* GameObject bullet = Instantiate(portal, spawnPoint.position, spawnPoint.rotation);
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>(); */
         portal.transform.position = spawnPoint.position;
         canShoot = false; 
         launchTimer = true;
-    
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "redDeadZone")
+        {
+            canShoot = false;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "redDeadZone")
+        {
+            canShoot = true;
+        }
     }
 }

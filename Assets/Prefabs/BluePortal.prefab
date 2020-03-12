@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5621614570727136895}
   m_Layer: 0
-  m_Name: BlueTransform
+  m_Name: exitBlue
   m_TagString: blueTransform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

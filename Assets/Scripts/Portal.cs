@@ -2,23 +2,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.TestTools;
 
 public class Portal : MonoBehaviour
 {
-
-    [SerializeField] private float time = 5;
+    [SerializeField] GameObject portal; 
+    [SerializeField] Transform initialPoint;
     
 
     void Update()
     {
-        Destroy(gameObject, time);
+        
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "player")
+        if (other.gameObject.tag == "redDeadZone")
         {
-            Destroy(gameObject);
+            portal.transform.position = initialPoint.position;
         }
     }
 }

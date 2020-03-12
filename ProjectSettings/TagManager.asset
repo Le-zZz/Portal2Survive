@@ -9,6 +9,8 @@ TagManager:
   - player
   - redTransform
   - blueTransform
+  - blueDeadZone
+  - redDeadZone
   layers:
   - Default
   - TransparentFX
