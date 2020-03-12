@@ -14,9 +14,9 @@ public class Portal : MonoBehaviour
         Destroy(gameObject, time);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "enemy")
+        if (other.gameObject.tag == "player")
         {
             Destroy(gameObject);
         }

@@ -1,10 +1,17 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    enum Player
+    {
+        ONE,
+        TWO
+    }
 
+    private Player player = Player.ONE;
     private Rigidbody2D body;
     [SerializeField] float movementX = 5;
     [SerializeField] float movementY = 5;
@@ -19,10 +26,21 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movementX = Input.GetAxis("Horizontal");
-        movementY = Input.GetAxis("Vertical");
+        switch (player)
+        {
+            case Player.ONE:
+                movementX = Input.GetAxis("HorizontalOne");
+                movementY = Input.GetAxis("VerticalOne");
+                break;
+            case Player.TWO:
+                movementX = Input.GetAxis("HorizontalTwo");
+                movementY = Input.GetAxis("VerticalTwo");
+                break;
+        }
+
         
         body.velocity = new Vector2(movementX * speed, movementY * speed);
+        
         
     }
 }

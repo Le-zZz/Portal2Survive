@@ -6,7 +6,9 @@ using UnityEngine;
 public class PortalMaker : MonoBehaviour
 {
     public Transform spawnPoint;
-    public GameObject portalPrefab;
+    public Transform initialPoint;
+
+    public GameObject portal;
     
     //public AudioSource bulletSound;
     
@@ -20,6 +22,7 @@ public class PortalMaker : MonoBehaviour
     private void Start()
     {
         time = timeStart;
+        portal.transform.position = initialPoint.position;
     }
 
     private void Update()
@@ -41,17 +44,18 @@ public class PortalMaker : MonoBehaviour
         { 
             launchTimer = false; 
             canShoot = true; 
-            time = timeStart; 
+            time = timeStart;
+            portal.transform.position = initialPoint.position;
         }
-        
-        
     }
 
     public void Shot()
     {
-        GameObject bullet = Instantiate(portalPrefab, spawnPoint.position, spawnPoint.rotation);
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>(); 
+        /* GameObject bullet = Instantiate(portal, spawnPoint.position, spawnPoint.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>(); */
+        portal.transform.position = spawnPoint.position;
         canShoot = false; 
         launchTimer = true;
+    
     }
 }
