@@ -8,8 +8,7 @@ public class Portal : MonoBehaviour
 {
     [SerializeField] GameObject portal; 
     [SerializeField] Transform initialPoint;
-    
-
+    [SerializeField] string zoneNameTag;
     void Update()
     {
         
@@ -18,7 +17,7 @@ public class Portal : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "redDeadZone")
+        if (other.gameObject.tag == zoneNameTag)
         {
             portal.transform.position = initialPoint.position;
         }
