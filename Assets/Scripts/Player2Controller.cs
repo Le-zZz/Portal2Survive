@@ -19,8 +19,8 @@ public class Player2Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movementX = Input.GetAxis("HorizontalTwo");
-        movementY = Input.GetAxis("VerticalTwo");
+        movementX = Input.GetAxis("Horizontal");
+        movementY = Input.GetAxis("Vertical");
         
         body.velocity = new Vector2(movementX * speed, movementY * speed);
     }
