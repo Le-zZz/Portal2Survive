@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - redPortal
+  - bluePortal
+  - player
+  - redTransform
+  - blueTransform
+  - blueDeadZone
+  - redDeadZone
   layers:
   - Default
   - TransparentFX
