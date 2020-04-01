@@ -41,7 +41,6 @@ GameObject:
   - component: {fileID: 8731540539659004711}
   - component: {fileID: 8495116097734509091}
   - component: {fileID: 6434158729170452129}
-  - component: {fileID: 1128820963}
   m_Layer: 0
   m_Name: BluePortal
   m_TagString: bluePortal
@@ -58,7 +57,7 @@ Transform:
   m_GameObject: {fileID: 6978261646417868278}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.5, y: 3.5, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 5621614570727136895}
   m_Father: {fileID: 0}
@@ -99,8 +98,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -483186697
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 2723176700914664728, guid: 3996152547fd1c84aa56e2937fe99df5,
     type: 3}
@@ -130,18 +129,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.000000029802322}
   serializedVersion: 2
   m_Radius: 0.11999999
---- !u!114 &1128820963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6978261646417868278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d587909d1e8e14648bf1877fdbf270cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  portal: {fileID: 0}
-  initialPoint: {fileID: 0}
-  zoneNameTag: blueDeadZone

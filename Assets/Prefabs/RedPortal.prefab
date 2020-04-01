@@ -39,7 +39,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 354999242653569729}
-  - component: {fileID: 803118568}
   - component: {fileID: 1947355931013560564}
   - component: {fileID: 3377662167288216930}
   m_Layer: 0
@@ -58,27 +57,12 @@ Transform:
   m_GameObject: {fileID: 3706422362861301658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.4, y: -0.16, z: 0}
-  m_LocalScale: {x: 3.5, y: 3.5, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_Children:
   - {fileID: 3056677569191480583}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &803118568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3706422362861301658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d587909d1e8e14648bf1877fdbf270cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  portal: {fileID: 0}
-  initialPoint: {fileID: 0}
-  zoneNameTag: redDeadZone
 --- !u!212 &1947355931013560564
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -114,8 +98,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -483186697
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 2723176700914664728, guid: 3996152547fd1c84aa56e2937fe99df5,
     type: 3}
