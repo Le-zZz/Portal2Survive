@@ -8,6 +8,7 @@ public class Teleportation : MonoBehaviour
 
     [SerializeField] GameObject exitRed;
     [SerializeField] GameObject exitBlue;
+    [SerializeField] GameObject defaultSpawn;
 
 
     // Start is called before the first frame update
@@ -32,6 +33,14 @@ public class Teleportation : MonoBehaviour
         if (other.gameObject.tag == "bluePortal")
         {
             transform.position = exitRed.transform.position;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag  == "deadZone")
+        {
+            transform.position = defaultSpawn.transform.position;
         }
     }
 }

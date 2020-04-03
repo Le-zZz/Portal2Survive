@@ -9,6 +9,9 @@ public class Player2Controller : MonoBehaviour
     [SerializeField] float movementX = 5;
     [SerializeField] float movementY = 5;
     [SerializeField] float speed = 3;
+    [SerializeField] string horizontal;
+    [SerializeField] string vertical;
+
 
     // Start is called before the first frame update
     void Start()
@@ -19,8 +22,8 @@ public class Player2Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movementX = Input.GetAxis("Horizontal");
-        movementY = Input.GetAxis("Vertical");
+        movementX = Input.GetAxis(horizontal);
+        movementY = Input.GetAxis(vertical);
         
         body.velocity = new Vector2(movementX * speed, movementY * speed);
     }

@@ -9,7 +9,7 @@ public class PortalMaker : MonoBehaviour
     [SerializeField] Transform initialPoint;
 
     [SerializeField] GameObject portal;
-    [SerializeField] string zoneNameTag;
+    [SerializeField] string deadZone;
 
     //public AudioSource bulletSound;
 
@@ -59,7 +59,7 @@ public class PortalMaker : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == zoneNameTag)
+        if (other.gameObject.tag == deadZone)
         {
             canShoot = false;
         }
@@ -67,7 +67,7 @@ public class PortalMaker : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag == zoneNameTag)
+        if (other.gameObject.tag == deadZone)
         {
             canShoot = true;
         }

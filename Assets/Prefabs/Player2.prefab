@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7927972620980620090}
   - component: {fileID: 3753836908207762952}
-  - component: {fileID: 4806715528571611769}
   - component: {fileID: 1640857085552188205}
   - component: {fileID: 4199153661001289618}
   - component: {fileID: 886519251654210072}
@@ -72,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2001754497
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1776779282584162555, guid: 483eb6b8483182041ac352be981046fa,
     type: 3}
@@ -87,22 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4806715528571611769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4420260927096359213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fc3056829837ba4ba03e865aa98b47b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 4275832621398498909}
-  initialPoint: {fileID: 0}
-  portal: {fileID: 0}
-  zoneNameTag: 
 --- !u!114 &1640857085552188205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,6 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   exitRed: {fileID: 0}
   exitBlue: {fileID: 0}
+  defaultSpawn: {fileID: 0}
 --- !u!50 &4199153661001289618
 Rigidbody2D:
   serializedVersion: 4
@@ -192,6 +176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4275832621398498909}
+  - component: {fileID: 417628349}
   m_Layer: 0
   m_Name: BluePortalSpawn
   m_TagString: Untagged
@@ -213,3 +198,19 @@ Transform:
   m_Father: {fileID: 7927972620980620090}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &417628349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8073801127967004949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fc3056829837ba4ba03e865aa98b47b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 4275832621398498909}
+  initialPoint: {fileID: 0}
+  portal: {fileID: 0}
+  deadZone: 

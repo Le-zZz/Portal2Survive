@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2173645620016568525}
   - component: {fileID: 33155637}
+  - component: {fileID: 148827158}
   m_Layer: 0
   m_Name: RedPortalSpawn
   m_TagString: Untagged
@@ -57,6 +58,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.12, y: 0.12}
   m_EdgeRadius: 0
+--- !u!114 &148827158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2173645620016568524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fc3056829837ba4ba03e865aa98b47b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 2173645620016568525}
+  initialPoint: {fileID: 0}
+  portal: {fileID: 0}
+  deadZone: redDeadZone
 --- !u!1 &2173645620048859674
 GameObject:
   m_ObjectHideFlags: 0
@@ -69,10 +86,9 @@ GameObject:
   - component: {fileID: 2173645620048859678}
   - component: {fileID: 2173645620048859677}
   - component: {fileID: 5587621426726800974}
-  - component: {fileID: 1897352499}
   - component: {fileID: 1122330778}
   - component: {fileID: 8581243288486195720}
-  - component: {fileID: 658951793}
+  - component: {fileID: 608416546}
   m_Layer: 8
   m_Name: Player1
   m_TagString: player
@@ -130,8 +146,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2001754497
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1776779282584162555, guid: 483eb6b8483182041ac352be981046fa,
     type: 3}
@@ -180,21 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   exitRed: {fileID: 0}
   exitBlue: {fileID: 0}
---- !u!114 &1897352499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2173645620048859674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f6a90c2443e39f41b74fde73b63f2d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementX: 5
-  movementY: 5
-  speed: 3
+  defaultSpawn: {fileID: 0}
 --- !u!95 &1122330778
 Animator:
   serializedVersion: 3
@@ -240,7 +242,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1154268, y: 0.11542678}
   m_EdgeRadius: 0
---- !u!114 &658951793
+--- !u!114 &608416546
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -249,10 +251,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2173645620048859674}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fc3056829837ba4ba03e865aa98b47b, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f6a90c2443e39f41b74fde73b63f2d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 2173645620016568525}
-  initialPoint: {fileID: 0}
-  portal: {fileID: 0}
-  zoneNameTag: 
+  movementX: 5
+  movementY: 5
+  speed: 3
+  horizontal: Horizontal
+  vertical: Vertical
