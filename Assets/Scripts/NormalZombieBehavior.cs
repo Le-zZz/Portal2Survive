@@ -8,7 +8,7 @@ public class NormalZombieBehavior : MonoBehaviour
     private Rigidbody2D body;
 
     private int playerDistance = 10;
-    private float speed = 0.1f;
+    private float speed = 1f;
 
     void Start()
     {
@@ -20,7 +20,7 @@ public class NormalZombieBehavior : MonoBehaviour
 
         if(direction < playerDistance)
         {
-            body.velocity = (player.transform.position - transform.position) * speed;
+            body.velocity = (player.transform.position - transform.position).normalized * speed;
         }
     }
     //private void OnTriggerEnter2D(Collider2D collision)
