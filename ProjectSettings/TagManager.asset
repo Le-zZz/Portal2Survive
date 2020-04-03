@@ -12,6 +12,8 @@ TagManager:
   - blueDeadZone
   - redDeadZone
   - deadZone
+  - leftSide
+  - rightSide
   layers:
   - Default
   - TransparentFX
@@ -51,6 +53,9 @@ TagManager:
     locked: 0
   - name: portal
     uniqueID: 3811780599
+    locked: 0
+  - name: zombie
+    uniqueID: 2290315563
     locked: 0
   - name: player
     uniqueID: 2293212799
