@@ -5,18 +5,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    enum Player
-    {
-        ONE,
-        TWO
-    }
-
-    private Player player = Player.ONE;
     private Rigidbody2D body;
     [SerializeField] float movementX = 5;
     [SerializeField] float movementY = 5;
     [SerializeField] float speed = 3;
-    
+    [SerializeField] string horizontal;
+    [SerializeField] string vertical;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,21 +22,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        switch (player)
-        {
-            case Player.ONE:
-                movementX = Input.GetAxis("HorizontalOne");
-                movementY = Input.GetAxis("VerticalOne");
-                break;
-            case Player.TWO:
-                movementX = Input.GetAxis("HorizontalTwo");
-                movementY = Input.GetAxis("VerticalTwo");
-                break;
-        }
+        movementX = Input.GetAxis(horizontal);
+        movementY = Input.GetAxis(vertical);
 
-        
         body.velocity = new Vector2(movementX * speed, movementY * speed);
-        
-        
     }
 }

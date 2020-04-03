@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4199153661001289618}
   - component: {fileID: 886519251654210072}
   - component: {fileID: 5765241973441631724}
+  - component: {fileID: 730183600}
   m_Layer: 9
   m_Name: Player2
   m_TagString: Untagged
@@ -151,6 +152,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &730183600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4420260927096359213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10daa2b58e7d0ef4b9e5cab5af80a51f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementX: 5
+  movementY: 5
+  speed: 3
+  horizontal: P1Horizontal
+  vertical: P1Vertical
 --- !u!1 &8073801127967004949
 GameObject:
   m_ObjectHideFlags: 0
@@ -160,7 +178,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4275832621398498909}
-  - component: {fileID: 417628349}
+  - component: {fileID: 1808173461}
   m_Layer: 0
   m_Name: BluePortalSpawn
   m_TagString: Untagged
@@ -182,7 +200,7 @@ Transform:
   m_Father: {fileID: 7927972620980620090}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &417628349
+--- !u!114 &1808173461
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -191,10 +209,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8073801127967004949}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fc3056829837ba4ba03e865aa98b47b, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bf2ed399bc700a4a8201c77ee9d1dd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 4275832621398498909}
   initialPoint: {fileID: 0}
   portal: {fileID: 0}
-  deadZone: 
+  deadZone: blueDeadZone
