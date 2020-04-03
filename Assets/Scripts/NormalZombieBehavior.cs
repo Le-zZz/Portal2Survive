@@ -14,6 +14,7 @@ public class NormalZombieBehavior : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
     }
+
     void Update()
     {
         var direction = Vector3.Distance(transform.position, player.transform.position);
