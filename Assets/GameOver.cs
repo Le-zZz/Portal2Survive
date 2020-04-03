@@ -20,16 +20,20 @@ public class GameOver : MonoBehaviour
         {
             gameOverPanel.SetActive(true);
         }
+        else
+        {
+            gameOverPanel.SetActive(false);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "player")
+        if (collision.gameObject.tag == "player1")
         {
             isDeadP1 = false;
         }
 
-        if (collision.gameObject.tag == "player")
+        if (collision.gameObject.tag == "player1")
         {
             isDeadP2 = false;
         }
@@ -37,12 +41,12 @@ public class GameOver : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "player")
+        if (collision.gameObject.tag == "player2")
         {
             isDeadP1 = true;
         }
 
-        if (collision.gameObject.tag == "player")
+        if (collision.gameObject.tag == "player2")
         {
             isDeadP2 = true;
         }
