@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 886519251654210072}
   - component: {fileID: 5765241973441631724}
   - component: {fileID: 730183600}
+  - component: {fileID: 1791979693}
   m_Layer: 9
   m_Name: Player2
-  m_TagString: Untagged
+  m_TagString: player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,7 +107,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &886519251654210072
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -169,6 +170,20 @@ MonoBehaviour:
   speed: 3
   horizontal: P1Horizontal
   vertical: P1Vertical
+--- !u!114 &1791979693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4420260927096359213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41224d8c2f60c474bb2e7ab11619f3b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitingPoint: {fileID: 0}
+  spawnPlayer: {fileID: 0}
 --- !u!1 &8073801127967004949
 GameObject:
   m_ObjectHideFlags: 0

@@ -30,19 +30,6 @@ public class GameOver : MonoBehaviour
     {
         if (collision.gameObject.tag == "player1")
         {
-            isDeadP1 = false;
-        }
-
-        if (collision.gameObject.tag == "player1")
-        {
-            isDeadP2 = false;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "player2")
-        {
             isDeadP1 = true;
         }
 
@@ -50,5 +37,12 @@ public class GameOver : MonoBehaviour
         {
             isDeadP2 = true;
         }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+
+        isDeadP1 = false;
+        isDeadP2 = false;
     }
 }

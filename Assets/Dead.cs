@@ -7,8 +7,6 @@ public class Dead : MonoBehaviour
     [SerializeField] Transform waitingPoint;
     [SerializeField] Transform spawnPlayer;
 
-    [SerializeField] GameObject player;
-
     //public AudioSource bulletSound;
 
     private bool isDead = false;
