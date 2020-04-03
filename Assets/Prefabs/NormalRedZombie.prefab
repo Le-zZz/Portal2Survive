@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7457081694644893505}
   - component: {fileID: 62265166}
   - component: {fileID: 1245278702}
+  - component: {fileID: 2020343246}
   m_Layer: 0
   m_Name: NormalRedZombie
   m_TagString: Untagged
@@ -70,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2004651733
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -5286945731846398934, guid: 322fcfd85b0d4f348ba3cb2a10dc822c,
     type: 3}
@@ -144,7 +145,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 074465346e2a5ec41ac7cc80ce8c0009, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player1: {fileID: 0}
+  player2: {fileID: 0}
 --- !u!95 &1245278702
 Animator:
   serializedVersion: 3
@@ -164,3 +166,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2020343246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5853657746520613683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc63852d3f987b34fb0a2c14c9fa641f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exitRed: {fileID: 0}
+  exitBlue: {fileID: 0}
+  defaultSpawn: {fileID: 0}
