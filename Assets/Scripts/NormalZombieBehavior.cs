@@ -4,19 +4,30 @@ using UnityEngine;
 
 public class NormalZombieBehavior : MonoBehaviour
 {
-//    var distance = Vector3.Distance(transform.position, player.transform.position)
+    [SerializeField] private Transform player;
+    private Rigidbody2D body;
 
-//if(distance< 5){
-//rigidbody.velocity = (player.transform.position - transform.position).normalize* speed;
-//}
-void Start()
+    private int playerDistance = 10;
+    private float speed = 0.1f;
+
+    void Start()
     {
-        
+        body = GetComponent<Rigidbody2D>();
     }
-
-    
     void Update()
     {
-        
+        var direction = Vector3.Distance(transform.position, player.transform.position);
+
+        if(direction < playerDistance)
+        {
+            body.velocity = (player.transform.position - transform.position) * speed;
+        }
     }
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if(collision.gameObject.layer == LayerMask.NameToLayer("Player"))
+    //    {
+
+    //    }
+    //}
 }
