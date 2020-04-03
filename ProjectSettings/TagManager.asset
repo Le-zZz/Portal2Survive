@@ -17,6 +17,12 @@ TagManager:
   - zombie
   - player1
   - player2
+  - cageNormalRed
+  - cageNormalBrown
+  - cageHeadlessRed
+  - cageHeadlessBrown
+  - cageBloodyRed
+  - cageBloodyBrown
   layers:
   - Default
   - TransparentFX
@@ -59,6 +65,9 @@ TagManager:
     locked: 0
   - name: zombie
     uniqueID: 2290315563
+    locked: 0
+  - name: decor
+    uniqueID: 2171527177
     locked: 0
   - name: player
     uniqueID: 2293212799

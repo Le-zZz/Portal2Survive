@@ -126,12 +126,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3846483164257060107}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &113327280 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2173645620048859674, guid: 987a29cf384cad04aaa458a8ee8e06b4,
-    type: 3}
-  m_PrefabInstance: {fileID: 1234231349}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &150815535
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,11 +508,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player1
       objectReference: {fileID: 0}
-    - target: {fileID: 2173645620048859674, guid: 987a29cf384cad04aaa458a8ee8e06b4,
-        type: 3}
-      propertyPath: m_TagString
-      value: player1
-      objectReference: {fileID: 0}
     - target: {fileID: 2173645620048859679, guid: 987a29cf384cad04aaa458a8ee8e06b4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -584,19 +573,14 @@ PrefabInstance:
       objectReference: {fileID: 337264645}
     - target: {fileID: 902193300466328194, guid: 987a29cf384cad04aaa458a8ee8e06b4,
         type: 3}
-      propertyPath: player
+      propertyPath: waitingPoint
       value: 
-      objectReference: {fileID: 113327280}
+      objectReference: {fileID: 946697142}
     - target: {fileID: 902193300466328194, guid: 987a29cf384cad04aaa458a8ee8e06b4,
         type: 3}
       propertyPath: spawnPlayer
       value: 
       objectReference: {fileID: 882537854}
-    - target: {fileID: 902193300466328194, guid: 987a29cf384cad04aaa458a8ee8e06b4,
-        type: 3}
-      propertyPath: waitingPoint
-      value: 
-      objectReference: {fileID: 946697142}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
 --- !u!1 &1338987306 stripped
@@ -4923,39 +4907,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1070689607178853031, guid: 0244d64b9a172e04380f2b6df1b1efe1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1070689607178853031, guid: 0244d64b9a172e04380f2b6df1b1efe1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 7973095957813791592, guid: 0244d64b9a172e04380f2b6df1b1efe1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 7973095957813791592, guid: 0244d64b9a172e04380f2b6df1b1efe1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.91
-      objectReference: {fileID: 0}
-    - target: {fileID: 1642126011204116541, guid: 0244d64b9a172e04380f2b6df1b1efe1,
-        type: 3}
-      propertyPath: gameOverPanel
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 521107386, guid: 0244d64b9a172e04380f2b6df1b1efe1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 521107386, guid: 0244d64b9a172e04380f2b6df1b1efe1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.73
-      objectReference: {fileID: 0}
     - target: {fileID: 521107388, guid: 0244d64b9a172e04380f2b6df1b1efe1, type: 3}
       propertyPath: gameOverPanel
       value: 
@@ -5111,11 +5062,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4420260927096359213, guid: cdce5cee0e3707f4e9ebeb69f00db730,
-        type: 3}
-      propertyPath: m_TagString
-      value: player2
       objectReference: {fileID: 0}
     - target: {fileID: 7927972620980620090, guid: cdce5cee0e3707f4e9ebeb69f00db730,
         type: 3}
