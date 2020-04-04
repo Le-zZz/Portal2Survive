@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D body;
-    [SerializeField] float movementX = 5;
-    [SerializeField] float movementY = 5;
+    Vector2 movement;
     [SerializeField] float speed = 3;
     [SerializeField] string horizontal;
     [SerializeField] string vertical;
 
+    [SerializeField] Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -22,9 +21,17 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movementX = Input.GetAxis(horizontal);
-        movementY = Input.GetAxis(vertical);
+        movement.x = Input.GetAxis(horizontal);
+        movement.y = Input.GetAxis(vertical);
 
-        body.velocity = new Vector2(movementX * speed, movementY * speed);
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.magnitude);
+
+    }
+
+    private void FixedUpdate()
+    {
+        body.MovePosition(body.position + movement * speed * Time.fixedDeltaTime);
     }
 }
