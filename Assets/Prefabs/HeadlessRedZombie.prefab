@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6141253667605609984}
   - component: {fileID: -4897398451095506028}
   - component: {fileID: 8276750371290062308}
+  - component: {fileID: 1230289925}
   m_Layer: 0
   m_Name: HeadlessRedZombie
   m_TagString: Untagged
@@ -144,3 +145,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultSpawn: {fileID: 0}
+--- !u!95 &1230289925
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6141253667605609987}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 889d0a72900460a48b42b0bbcd6b2a5e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
