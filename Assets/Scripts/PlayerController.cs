@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private Rigidbody2D body;
-    Vector2 movement;
-    [SerializeField] float speed = 3;
-    [SerializeField] string horizontal;
-    [SerializeField] string vertical;
+    [SerializeField] private Rigidbody2D body;
+    private Vector2 movement;
+    [SerializeField] private float movSpeed = 3f;
+    //[SerializeField] string horizontal;
+    //[SerializeField] string vertical;
 
-    [SerializeField] Animator animator;
+    [SerializeField] private Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -21,17 +21,17 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement.x = Input.GetAxis(horizontal);
-        movement.y = Input.GetAxis(vertical);
+        movement.x = Input.GetAxis("Horizontal");
+        movement.y = Input.GetAxis("Vertical");
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.magnitude);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
 
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
-        body.MovePosition(body.position + movement * speed * Time.fixedDeltaTime);
+        body.MovePosition(body.position + movement * movSpeed * Time.fixedDeltaTime);
     }
 }
