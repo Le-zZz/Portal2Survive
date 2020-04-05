@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4107921968379068712}
   - component: {fileID: 4107921968379068710}
   - component: {fileID: -2363522827723923411}
+  - component: {fileID: 7670817782188475905}
   m_Layer: 0
   m_Name: HeadlessBrownZombie
   m_TagString: Untagged
@@ -130,3 +131,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &7670817782188475905
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4107921968379068713}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 889d0a72900460a48b42b0bbcd6b2a5e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
