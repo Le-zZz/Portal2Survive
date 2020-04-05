@@ -9621,6 +9621,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: NormalRedZombie
       objectReference: {fileID: 0}
+    - target: {fileID: 5853657746520613683, guid: 07b72e42bfba3ca489f7bfaad356ed92,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5853657746520613681, guid: 07b72e42bfba3ca489f7bfaad356ed92,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11817,6 +11822,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: NormalBrownZombie
       objectReference: {fileID: 0}
+    - target: {fileID: 6884090722432489033, guid: 15fba3a500c354e42a7335a453232010,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6884090722432489036, guid: 15fba3a500c354e42a7335a453232010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12422,6 +12432,14 @@ PrefabInstance:
       propertyPath: spawnPlayer
       value: 
       objectReference: {fileID: 1017817792}
+    - target: {fileID: 1147353769, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
+      propertyPath: horizontal
+      value: Horizontal
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147353769, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
+      propertyPath: vertical
+      value: Vertical
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
 --- !u!4 &1548738213 stripped
@@ -12956,6 +12974,16 @@ PrefabInstance:
       propertyPath: spawnPlayer
       value: 
       objectReference: {fileID: 1017817790}
+    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: horizontal
+      value: P1Horizontal
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: vertical
+      value: P1Vertical
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
 --- !u!4 &1791979691 stripped

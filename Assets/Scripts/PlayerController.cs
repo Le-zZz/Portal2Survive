@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody2D body;
     private Vector2 movement;
     [SerializeField] private float movSpeed = 3f;
-    //[SerializeField] string horizontal;
-    //[SerializeField] string vertical;
+    [SerializeField] string horizontal;
+    [SerializeField] string vertical;
 
     [SerializeField] private Animator animator;
 
@@ -21,8 +21,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement.x = Input.GetAxis("Horizontal");
-        movement.y = Input.GetAxis("Vertical");
+        movement.x = Input.GetAxis(horizontal);
+        movement.y = Input.GetAxis(vertical);
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
