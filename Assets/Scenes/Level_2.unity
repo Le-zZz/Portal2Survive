@@ -2195,6 +2195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04b2812950cdaa240a950341c7d01d7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  restartScene: 
 --- !u!4 &445322288
 Transform:
   m_ObjectHideFlags: 0
@@ -5967,7 +5968,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c6fa79c9c50f1404f91878b717a45403, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -6718,16 +6719,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9139977623592083023, guid: f752f5c69d5f88247b99d46ea099d6f1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 9139977623592083023, guid: f752f5c69d5f88247b99d46ea099d6f1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 12.93
-      objectReference: {fileID: 0}
     - target: {fileID: 3630158449596616405, guid: f752f5c69d5f88247b99d46ea099d6f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6741,32 +6732,52 @@ PrefabInstance:
     - target: {fileID: 5066172927646988286, guid: f752f5c69d5f88247b99d46ea099d6f1,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.4731995
+      value: -0.5209042
       objectReference: {fileID: 0}
     - target: {fileID: 5066172927646988286, guid: f752f5c69d5f88247b99d46ea099d6f1,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.98402333
+      value: 1.3338587
       objectReference: {fileID: 0}
     - target: {fileID: 5066172927646988286, guid: f752f5c69d5f88247b99d46ea099d6f1,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.49428654
+      value: 0.50488734
       objectReference: {fileID: 0}
     - target: {fileID: 5066172927646988286, guid: f752f5c69d5f88247b99d46ea099d6f1,
         type: 3}
       propertyPath: m_Size.x
-      value: 2.2510386
+      value: 2.5690703
       objectReference: {fileID: 0}
     - target: {fileID: 1906284818014488662, guid: f752f5c69d5f88247b99d46ea099d6f1,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.66206026
+      value: 0.6154239
       objectReference: {fileID: 0}
     - target: {fileID: 1906284818014488662, guid: f752f5c69d5f88247b99d46ea099d6f1,
         type: 3}
       propertyPath: m_Size.x
-      value: 2.3241205
+      value: 2.6738944
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906284818014488662, guid: f752f5c69d5f88247b99d46ea099d6f1,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.10737765
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906284818014488662, guid: f752f5c69d5f88247b99d46ea099d6f1,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.6578014
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139977623592083023, guid: f752f5c69d5f88247b99d46ea099d6f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139977623592083023, guid: f752f5c69d5f88247b99d46ea099d6f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.93
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f752f5c69d5f88247b99d46ea099d6f1, type: 3}
@@ -6859,11 +6870,6 @@ PrefabInstance:
       propertyPath: vertical
       value: VerticalP2
       objectReference: {fileID: 0}
-    - target: {fileID: 5765241973441631724, guid: cdce5cee0e3707f4e9ebeb69f00db730,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 49ec7643411b6d044bec4951fbb2faeb, type: 2}
     - target: {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
       propertyPath: initialPoint
       value: 
@@ -6876,6 +6882,11 @@ PrefabInstance:
       propertyPath: portalSound
       value: 
       objectReference: {fileID: 1333662581}
+    - target: {fileID: 5765241973441631724, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 49ec7643411b6d044bec4951fbb2faeb, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
 --- !u!1 &1881887281
