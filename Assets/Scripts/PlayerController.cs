@@ -11,7 +11,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] string vertical;
 
     [SerializeField] private Animator animator;
+  
+    [SerializeField] GameObject portalSpawn;
 
+    [SerializeField] Vector2 movementDirection;
+    [SerializeField] float movementSpeed;
+
+    Player player;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,10 +34,27 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
+        ProcessInputs();
+        Portal();
     }
 
     void FixedUpdate()
     {
         body.MovePosition(body.position + movement * movSpeed * Time.fixedDeltaTime);
+    }
+
+    void ProcessInputs()
+    {
+        movementDirection = new Vector2(Input.GetAxis(horizontal), Input.GetAxis(vertical));
+        movementSpeed = Mathf.Clamp(movementDirection.magnitude, 0.01f, 1.0f);
+        movementDirection.Normalize();
+    }
+
+    void Portal()
+    {
+        if(movementDirection != Vector2.zero)
+        { 
+            portalSpawn.transform.localPosition = movementDirection;
+        }
     }
 }

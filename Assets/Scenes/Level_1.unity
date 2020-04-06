@@ -9621,11 +9621,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: NormalRedZombie
       objectReference: {fileID: 0}
-    - target: {fileID: 5853657746520613683, guid: 07b72e42bfba3ca489f7bfaad356ed92,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5853657746520613681, guid: 07b72e42bfba3ca489f7bfaad356ed92,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9664,7 +9659,7 @@ PrefabInstance:
     - target: {fileID: 5853657746520613681, guid: 07b72e42bfba3ca489f7bfaad356ed92,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5853657746520613681, guid: 07b72e42bfba3ca489f7bfaad356ed92,
         type: 3}
@@ -11822,11 +11817,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: NormalBrownZombie
       objectReference: {fileID: 0}
-    - target: {fileID: 6884090722432489033, guid: 15fba3a500c354e42a7335a453232010,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6884090722432489036, guid: 15fba3a500c354e42a7335a453232010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11865,7 +11855,7 @@ PrefabInstance:
     - target: {fileID: 6884090722432489036, guid: 15fba3a500c354e42a7335a453232010,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6884090722432489036, guid: 15fba3a500c354e42a7335a453232010,
         type: 3}
@@ -12414,14 +12404,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 148827158, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
-      propertyPath: initialPoint
-      value: 
-      objectReference: {fileID: 914348089}
-    - target: {fileID: 148827158, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
-      propertyPath: portal
-      value: 
-      objectReference: {fileID: 1606311416}
     - target: {fileID: 902193300466328194, guid: 987a29cf384cad04aaa458a8ee8e06b4,
         type: 3}
       propertyPath: waitingPoint
@@ -12432,14 +12414,14 @@ PrefabInstance:
       propertyPath: spawnPlayer
       value: 
       objectReference: {fileID: 1017817792}
-    - target: {fileID: 1147353769, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
-      propertyPath: horizontal
-      value: Horizontal
-      objectReference: {fileID: 0}
-    - target: {fileID: 1147353769, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
-      propertyPath: vertical
-      value: Vertical
-      objectReference: {fileID: 0}
+    - target: {fileID: 1914384250, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
+      propertyPath: initialPoint
+      value: 
+      objectReference: {fileID: 914348089}
+    - target: {fileID: 1914384250, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
+      propertyPath: portal
+      value: 
+      objectReference: {fileID: 1606311416}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
 --- !u!4 &1548738213 stripped
@@ -12958,14 +12940,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1808173461, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
-      propertyPath: initialPoint
-      value: 
-      objectReference: {fileID: 914348089}
-    - target: {fileID: 1808173461, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
-      propertyPath: portal
-      value: 
-      objectReference: {fileID: 806644689}
     - target: {fileID: 1791979693, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
       propertyPath: waitingPoint
       value: 
@@ -12974,16 +12948,14 @@ PrefabInstance:
       propertyPath: spawnPlayer
       value: 
       objectReference: {fileID: 1017817790}
-    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
-        type: 3}
-      propertyPath: horizontal
-      value: P1Horizontal
-      objectReference: {fileID: 0}
-    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
-        type: 3}
-      propertyPath: vertical
-      value: P1Vertical
-      objectReference: {fileID: 0}
+    - target: {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
+      propertyPath: initialPoint
+      value: 
+      objectReference: {fileID: 914348089}
+    - target: {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
+      propertyPath: portal
+      value: 
+      objectReference: {fileID: 806644689}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
 --- !u!4 &1791979691 stripped
@@ -14543,11 +14515,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CheckWin
-      objectReference: {fileID: 0}
-    - target: {fileID: 6605240957192686816, guid: d11dcb2c1ebe22042a2b5e0cc753bc7d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6605240957192686818, guid: d11dcb2c1ebe22042a2b5e0cc753bc7d,
         type: 3}

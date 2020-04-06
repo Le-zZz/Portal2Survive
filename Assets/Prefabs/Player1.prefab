@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2173645620016568525}
-  - component: {fileID: 148827158}
   m_Layer: 0
   m_Name: RedPortalSpawn
   m_TagString: Untagged
@@ -31,22 +30,6 @@ Transform:
   m_Father: {fileID: 2173645620048859679}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &148827158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2173645620016568524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fc3056829837ba4ba03e865aa98b47b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 2173645620016568525}
-  initialPoint: {fileID: 0}
-  portal: {fileID: 0}
-  deadZone: redDeadZone
 --- !u!1 &2173645620048859674
 GameObject:
   m_ObjectHideFlags: 0
@@ -62,6 +45,7 @@ GameObject:
   - component: {fileID: 8581243288486195720}
   - component: {fileID: 902193300466328194}
   - component: {fileID: 1147353769}
+  - component: {fileID: 1914384250}
   m_Layer: 8
   m_Name: Player1
   m_TagString: player1
@@ -228,4 +212,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 2173645620048859677}
   movSpeed: 3
+  horizontal: Horizontal
+  vertical: Vertical
   animator: {fileID: 1122330778}
+  portalSpawn: {fileID: 2173645620016568524}
+  movementDirection: {x: 0, y: 0}
+  movementSpeed: 0
+--- !u!114 &1914384250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2173645620048859674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fc3056829837ba4ba03e865aa98b47b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 2173645620016568525}
+  initialPoint: {fileID: 0}
+  portal: {fileID: 0}
+  deadZone: redDeadZone

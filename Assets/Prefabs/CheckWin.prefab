@@ -43,10 +43,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 027335d1aa3a6784fa18ac4cdc42533a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normalRedNeeded: 1
-  normalBrownNeeded: 1
-  headlessRedNeeded: 0
-  headlessBrownNeeded: 0
-  bloodyRedNeeded: 0
-  bloodyBrownNeeded: 0
   winPanel: {fileID: 0}
