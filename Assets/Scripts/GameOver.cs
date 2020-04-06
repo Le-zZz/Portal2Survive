@@ -15,6 +15,7 @@ public class GameOver : MonoBehaviour
     private void Start()
     {
         gameOverPanel.SetActive(false);
+        Time.timeScale = 1f;
     }
     void Update()
     {
@@ -28,6 +29,7 @@ public class GameOver : MonoBehaviour
         else
         {
             gameOverPanel.SetActive(false);
+            Time.timeScale = 1f;
         }
     }
 
