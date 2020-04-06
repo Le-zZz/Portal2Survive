@@ -266,6 +266,14 @@ PrefabInstance:
       propertyPath: gameOverPanel
       value: 
       objectReference: {fileID: 1088905075}
+    - target: {fileID: 521107388, guid: 0244d64b9a172e04380f2b6df1b1efe1, type: 3}
+      propertyPath: deathPanelP1
+      value: 
+      objectReference: {fileID: 2037465608}
+    - target: {fileID: 521107388, guid: 0244d64b9a172e04380f2b6df1b1efe1, type: 3}
+      propertyPath: deathPanelP2
+      value: 
+      objectReference: {fileID: 1547825360}
     - target: {fileID: 4493539597340040604, guid: 0244d64b9a172e04380f2b6df1b1efe1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8457,6 +8465,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeadlessBrownZombie
       objectReference: {fileID: 0}
+    - target: {fileID: 4107921968379068713, guid: 67e723113e672b74c8fb5073a854f164,
+        type: 3}
+      propertyPath: m_TagString
+      value: zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 4107921968379068711, guid: 67e723113e672b74c8fb5073a854f164,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9330,6 +9343,10 @@ PrefabInstance:
       propertyPath: portal
       value: 
       objectReference: {fileID: 527865274}
+    - target: {fileID: 1914384250, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
+      propertyPath: portalSound
+      value: 
+      objectReference: {fileID: 1032925401}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
 --- !u!1001 &700859565
@@ -9533,6 +9550,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloodyBrownZombie
       objectReference: {fileID: 0}
+    - target: {fileID: 6295326791257265545, guid: d55fb2ffde488dd4b95764c3f99546b0,
+        type: 3}
+      propertyPath: m_TagString
+      value: zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 6295326791257265551, guid: d55fb2ffde488dd4b95764c3f99546b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9724,6 +9746,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BloodyRedZombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643163601280428416, guid: 4361042f7cf81da4f8185bbc0b21e841,
+        type: 3}
+      propertyPath: m_TagString
+      value: zombie
       objectReference: {fileID: 0}
     - target: {fileID: 4643163601280428418, guid: 4361042f7cf81da4f8185bbc0b21e841,
         type: 3}
@@ -10389,6 +10416,108 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1032925393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2173645620048859674, guid: 987a29cf384cad04aaa458a8ee8e06b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 694111647}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1032925401
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032925393}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 5f4cd68921d2ca444bd7006b2f5b006b, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1037584232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10650,7 +10779,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.074994, y: 0}
+  m_AnchoredPosition: {x: 0.07498169, y: 0}
   m_SizeDelta: {x: 16.05, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1088905077
@@ -11095,6 +11224,18 @@ PrefabInstance:
       propertyPath: deathPanel
       value: 
       objectReference: {fileID: 2069298565}
+    - target: {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
+      propertyPath: initialPoint
+      value: 
+      objectReference: {fileID: 166423416}
+    - target: {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
+      propertyPath: portal
+      value: 
+      objectReference: {fileID: 1719467140}
+    - target: {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
+      propertyPath: portalSound
+      value: 
+      objectReference: {fileID: 2076804516}
     - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
         type: 3}
       propertyPath: horizontal
@@ -11105,14 +11246,6 @@ PrefabInstance:
       propertyPath: vertical
       value: VerticalP2
       objectReference: {fileID: 0}
-    - target: {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
-      propertyPath: initialPoint
-      value: 
-      objectReference: {fileID: 166423416}
-    - target: {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
-      propertyPath: portal
-      value: 
-      objectReference: {fileID: 1719467140}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
 --- !u!1001 &1240917573
@@ -11724,6 +11857,12 @@ Transform:
 --- !u!4 &1526370908 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7973095957813791592, guid: 0244d64b9a172e04380f2b6df1b1efe1,
+    type: 3}
+  m_PrefabInstance: {fileID: 76621507}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1547825360 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 914348088, guid: 0244d64b9a172e04380f2b6df1b1efe1,
     type: 3}
   m_PrefabInstance: {fileID: 76621507}
   m_PrefabAsset: {fileID: 0}
@@ -12523,6 +12662,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HeadlessRedZombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 6141253667605609987, guid: 59f09f355007c024eb71554dd3dfcfe6,
+        type: 3}
+      propertyPath: m_TagString
+      value: zombie
       objectReference: {fileID: 0}
     - target: {fileID: 6141253667605609985, guid: 59f09f355007c024eb71554dd3dfcfe6,
         type: 3}
@@ -13476,7 +13620,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 272.7, y: 6.8}
+  m_AnchoredPosition: {x: 272.7, y: 6.799988}
   m_SizeDelta: {x: -529.2, y: 13.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2037465610
@@ -13589,6 +13733,108 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069298565}
   m_CullTransparentMesh: 0
+--- !u!1 &2076804508 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4420260927096359213, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+    type: 3}
+  m_PrefabInstance: {fileID: 1186364689}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2076804516
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076804508}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 5f4cd68921d2ca444bd7006b2f5b006b, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &2077059576
 PrefabInstance:
   m_ObjectHideFlags: 0

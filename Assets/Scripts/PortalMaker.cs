@@ -16,7 +16,7 @@ public class PortalMaker : MonoBehaviour
     //[SerializeField] Transform spawnLeft;
     //[SerializeField] Transform spawnRight;
 
-    //public AudioSource bulletSound;
+    [SerializeField] private AudioSource portalSound;
 
     private bool canShoot = true;
     private bool launchTimer = false;
@@ -40,6 +40,7 @@ public class PortalMaker : MonoBehaviour
             if (canShoot)
             {
                 Shot();
+                portalSound.Play();
             }
         }
 
@@ -48,6 +49,7 @@ public class PortalMaker : MonoBehaviour
             if (canShoot)
             {
                 Shot();
+                portalSound.Play();
             }
         }
 

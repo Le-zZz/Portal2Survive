@@ -10,7 +10,7 @@ public class PortalMaker2 : MonoBehaviour
     [SerializeField] GameObject portal;
     [SerializeField] string deadZone;
 
-    //public AudioSource bulletSound;
+    [SerializeField] private AudioSource portalSound;
 
     private bool canShoot = true;
     private bool launchTimer = false;
@@ -32,6 +32,7 @@ public class PortalMaker2 : MonoBehaviour
             if (canShoot)
             {
                 Shot();
+                portalSound.Play();
             }
         }
 
