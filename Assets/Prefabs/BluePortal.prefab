@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 8731540539659004711}
   - component: {fileID: 8495116097734509091}
   - component: {fileID: 6434158729170452129}
+  - component: {fileID: 7960653348116151145}
   m_Layer: 0
   m_Name: BluePortal
   m_TagString: bluePortal
@@ -129,3 +130,22 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.000000029802322}
   serializedVersion: 2
   m_Radius: 0.11999999
+--- !u!95 &7960653348116151145
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6978261646417868278}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 616880cfa4a9aba47b95a6974c910d39, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

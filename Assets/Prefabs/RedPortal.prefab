@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 354999242653569729}
   - component: {fileID: 1947355931013560564}
   - component: {fileID: 3377662167288216930}
+  - component: {fileID: -5315480452309647734}
   m_Layer: 0
   m_Name: RedPortal
   m_TagString: redPortal
@@ -129,3 +130,22 @@ CircleCollider2D:
   m_Offset: {x: -0.000000074505806, y: 0}
   serializedVersion: 2
   m_Radius: 0.12
+--- !u!95 &-5315480452309647734
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3706422362861301658}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 616880cfa4a9aba47b95a6974c910d39, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
