@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private Rigidbody2D body;
+    private Rigidbody2D body;
     private Vector2 movement;
-    [SerializeField] private float movSpeed = 3f;
+    private float moveSpeed = 3f;
     [SerializeField] string horizontal;
     [SerializeField] string vertical;
 
@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        body.MovePosition(body.position + movement * movSpeed * Time.fixedDeltaTime);
+        body.MovePosition(body.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 
     void ProcessInputs()
