@@ -13710,6 +13710,16 @@ PrefabInstance:
       propertyPath: deathPanel
       value: 
       objectReference: {fileID: 1431078451}
+    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: horizontal
+      value: HorizontalP2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: vertical
+      value: VerticalP2
+      objectReference: {fileID: 0}
     - target: {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
       propertyPath: initialPoint
       value: 
@@ -13722,16 +13732,11 @@ PrefabInstance:
       propertyPath: portalSound
       value: 
       objectReference: {fileID: 1791979693}
-    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+    - target: {fileID: 5765241973441631724, guid: cdce5cee0e3707f4e9ebeb69f00db730,
         type: 3}
-      propertyPath: horizontal
-      value: HorizontalP2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
-        type: 3}
-      propertyPath: vertical
-      value: VerticalP2
-      objectReference: {fileID: 0}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 49ec7643411b6d044bec4951fbb2faeb, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
 --- !u!4 &1791979691 stripped
