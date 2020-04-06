@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+
+    [SerializeField] private string restartScene;
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
@@ -41,6 +43,12 @@ public class MenuManager : MonoBehaviour
     public void GoToLevel3()
     {
         SceneManager.LoadScene("Level_3");
+        Time.timeScale = 1f;
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(restartScene);
         Time.timeScale = 1f;
     }
 }

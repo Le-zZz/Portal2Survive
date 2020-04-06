@@ -10129,11 +10129,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5765241973441631724, guid: cdce5cee0e3707f4e9ebeb69f00db730,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 49ec7643411b6d044bec4951fbb2faeb, type: 2}
     - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
         type: 3}
       propertyPath: horizontal
@@ -10144,6 +10139,11 @@ PrefabInstance:
       propertyPath: vertical
       value: VerticalP2
       objectReference: {fileID: 0}
+    - target: {fileID: 5765241973441631724, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 49ec7643411b6d044bec4951fbb2faeb, type: 2}
     m_RemovedComponents:
     - {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
     - {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}

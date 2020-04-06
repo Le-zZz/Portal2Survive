@@ -25,6 +25,7 @@ public class CheckWin : MonoBehaviour
         if (redDead == redNeeded && brownDead == brownNeeded)
         {
             winPanel.SetActive(true);
+            Time.timeScale = 0f;
         }
 
     }

@@ -23,6 +23,7 @@ public class GameOver : MonoBehaviour
             gameOverPanel.SetActive(true);
             deathPanelP1.SetActive(false);
             deathPanelP2.SetActive(false);
+            Time.timeScale = 0f;
         }
         else
         {
