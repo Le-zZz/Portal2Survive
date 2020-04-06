@@ -11641,6 +11641,14 @@ PrefabInstance:
       propertyPath: gameOverPanel
       value: 
       objectReference: {fileID: 36938116}
+    - target: {fileID: 521107388, guid: 0244d64b9a172e04380f2b6df1b1efe1, type: 3}
+      propertyPath: deathPanelP1
+      value: 
+      objectReference: {fileID: 2090466003}
+    - target: {fileID: 521107388, guid: 0244d64b9a172e04380f2b6df1b1efe1, type: 3}
+      propertyPath: deathPanelP2
+      value: 
+      objectReference: {fileID: 1431078451}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0244d64b9a172e04380f2b6df1b1efe1, type: 3}
 --- !u!4 &1017817790 stripped
@@ -12391,7 +12399,7 @@ GameObject:
   - component: {fileID: 1431078454}
   - component: {fileID: 1431078453}
   m_Layer: 5
-  m_Name: Player2Panel
+  m_Name: DeathPanelP2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12971,6 +12979,11 @@ PrefabInstance:
       propertyPath: spawnPlayer
       value: 
       objectReference: {fileID: 1017817792}
+    - target: {fileID: 902193300466328194, guid: 987a29cf384cad04aaa458a8ee8e06b4,
+        type: 3}
+      propertyPath: deathPanel
+      value: 
+      objectReference: {fileID: 2090466003}
     - target: {fileID: 1914384250, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
       propertyPath: initialPoint
       value: 
@@ -13505,6 +13518,10 @@ PrefabInstance:
       propertyPath: spawnPlayer
       value: 
       objectReference: {fileID: 1017817790}
+    - target: {fileID: 1791979693, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
+      propertyPath: deathPanel
+      value: 
+      objectReference: {fileID: 1431078451}
     - target: {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
       propertyPath: initialPoint
       value: 
@@ -14743,7 +14760,7 @@ GameObject:
   - component: {fileID: 2090466006}
   - component: {fileID: 2090466005}
   m_Layer: 5
-  m_Name: Player1Panel
+  m_Name: DeathPanelP1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -15,11 +15,13 @@ public class Dead : MonoBehaviour
     private float timeStart = 0f;
     private float time = 0f;
     private float timeEnd = 5f;
-   
+
+    [SerializeField] GameObject deathPanel;
 
     private void Start()
     {
         time = timeStart;
+        deathPanel.SetActive(false);
     }
 
     private void Update()
@@ -28,6 +30,7 @@ public class Dead : MonoBehaviour
         if (launchTimer)
         {
             time += Time.deltaTime;
+            deathPanel.SetActive(true);
         }
 
         if (time >= timeEnd)
@@ -35,6 +38,7 @@ public class Dead : MonoBehaviour
             launchTimer = false;
             time = timeStart;
             transform.position = spawnPlayer.position;
+            deathPanel.SetActive(false);
         }
     }
 
