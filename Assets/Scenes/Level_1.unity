@@ -13058,14 +13058,6 @@ PrefabInstance:
       propertyPath: deathPanel
       value: 
       objectReference: {fileID: 2090466003}
-    - target: {fileID: 1147353769, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
-      propertyPath: horizontal
-      value: Horizontal
-      objectReference: {fileID: 0}
-    - target: {fileID: 1147353769, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
-      propertyPath: vertical
-      value: Vertical
-      objectReference: {fileID: 0}
     - target: {fileID: 1914384250, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
       propertyPath: initialPoint
       value: 
@@ -13078,6 +13070,14 @@ PrefabInstance:
       propertyPath: portalSound
       value: 
       objectReference: {fileID: 1548738215}
+    - target: {fileID: 1147353769, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
+      propertyPath: horizontal
+      value: Horizontal
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147353769, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
+      propertyPath: vertical
+      value: Vertical
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
 --- !u!4 &1548738213 stripped
@@ -13710,16 +13710,6 @@ PrefabInstance:
       propertyPath: deathPanel
       value: 
       objectReference: {fileID: 1431078451}
-    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
-        type: 3}
-      propertyPath: horizontal
-      value: HorizontalP2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
-        type: 3}
-      propertyPath: vertical
-      value: VerticalP2
-      objectReference: {fileID: 0}
     - target: {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
       propertyPath: initialPoint
       value: 
@@ -13732,6 +13722,16 @@ PrefabInstance:
       propertyPath: portalSound
       value: 
       objectReference: {fileID: 1791979693}
+    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: horizontal
+      value: HorizontalP2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: vertical
+      value: VerticalP2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
 --- !u!4 &1791979691 stripped

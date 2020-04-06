@@ -2074,8 +2074,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1914384250, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
+    - {fileID: 902193300466328194, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
+--- !u!1 &1020320636 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8073801127967004949, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+    type: 3}
+  m_PrefabInstance: {fileID: 1884875882}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1032811616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10126,8 +10134,51 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 49ec7643411b6d044bec4951fbb2faeb, type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: horizontal
+      value: P1HorizontalP2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: vertical
+      value: VerticalP2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
+    - {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
+    - {fileID: 1791979693, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
+--- !u!1 &1884875883 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4420260927096359213, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+    type: 3}
+  m_PrefabInstance: {fileID: 1884875882}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1884875884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884875883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801fdfc3b9a940f4aa7672310b43de66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontal: HorizontalP2
+  vertical: VerticalP2
+  animator: {fileID: 1884875885}
+  portalSpawn: {fileID: 1020320636}
+  movementDirection: {x: 0, y: 0}
+  movementSpeed: 0
+--- !u!95 &1884875885 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5765241973441631724, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+    type: 3}
+  m_PrefabInstance: {fileID: 1884875882}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1960201014
 PrefabInstance:
   m_ObjectHideFlags: 0
