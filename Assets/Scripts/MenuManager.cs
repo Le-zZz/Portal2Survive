@@ -31,4 +31,14 @@ public class MenuManager : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void GoToLevel2()
+    {
+        SceneManager.LoadScene("Level_2");
+    }
+
+    public void GoToLevel3()
+    {
+        SceneManager.LoadScene("Level_3");
+    }
 }
