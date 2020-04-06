@@ -35,10 +35,12 @@ public class MenuManager : MonoBehaviour
     public void GoToLevel2()
     {
         SceneManager.LoadScene("Level_2");
+        Time.timeScale = 1f;
     }
 
     public void GoToLevel3()
     {
         SceneManager.LoadScene("Level_3");
+        Time.timeScale = 1f;
     }
 }
