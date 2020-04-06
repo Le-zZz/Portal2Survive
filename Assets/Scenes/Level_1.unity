@@ -12992,6 +12992,14 @@ PrefabInstance:
       propertyPath: portal
       value: 
       objectReference: {fileID: 1606311416}
+    - target: {fileID: 1147353769, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
+      propertyPath: horizontal
+      value: Horizontal
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147353769, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
+      propertyPath: vertical
+      value: Vertical
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
 --- !u!4 &1548738213 stripped
@@ -13530,6 +13538,16 @@ PrefabInstance:
       propertyPath: portal
       value: 
       objectReference: {fileID: 806644689}
+    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: horizontal
+      value: HorizontalP2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: vertical
+      value: VerticalP2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
 --- !u!4 &1791979691 stripped

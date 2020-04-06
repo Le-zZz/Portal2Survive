@@ -1672,7 +1672,7 @@ GameObject:
   - component: {fileID: 310171350}
   - component: {fileID: 310171349}
   m_Layer: 5
-  m_Name: Player2Panel
+  m_Name: DeathPanelP2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2083,7 +2083,7 @@ GameObject:
   - component: {fileID: 486384490}
   - component: {fileID: 486384489}
   m_Layer: 5
-  m_Name: Player1Panel
+  m_Name: DeathPanelP1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4716,6 +4716,11 @@ PrefabInstance:
       propertyPath: waitingPoint
       value: 
       objectReference: {fileID: 1153903797}
+    - target: {fileID: 902193300466328194, guid: 987a29cf384cad04aaa458a8ee8e06b4,
+        type: 3}
+      propertyPath: deathPanel
+      value: 
+      objectReference: {fileID: 486384487}
     - target: {fileID: 1914384250, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
       propertyPath: initialPoint
       value: 
@@ -6383,11 +6388,10 @@ PrefabInstance:
       propertyPath: spawnPlayer
       value: 
       objectReference: {fileID: 628856521}
-    - target: {fileID: 5765241973441631724, guid: cdce5cee0e3707f4e9ebeb69f00db730,
-        type: 3}
-      propertyPath: m_Controller
+    - target: {fileID: 1791979693, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
+      propertyPath: deathPanel
       value: 
-      objectReference: {fileID: 9100000, guid: 49ec7643411b6d044bec4951fbb2faeb, type: 2}
+      objectReference: {fileID: 310171347}
     - target: {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
       propertyPath: initialPoint
       value: 
@@ -6396,6 +6400,11 @@ PrefabInstance:
       propertyPath: portal
       value: 
       objectReference: {fileID: 1446095611}
+    - target: {fileID: 5765241973441631724, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 49ec7643411b6d044bec4951fbb2faeb, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
 --- !u!1 &1881887281

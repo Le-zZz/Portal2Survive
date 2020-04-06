@@ -27,7 +27,7 @@ public class PortalMaker2 : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.AltGr))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             if (canShoot)
             {

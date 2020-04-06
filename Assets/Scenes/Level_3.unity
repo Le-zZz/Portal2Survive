@@ -8663,7 +8663,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.074964, y: 0}
+  m_AnchoredPosition: {x: 0.07495117, y: 0}
   m_SizeDelta: {x: 16.05, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &448964818
@@ -9317,6 +9317,11 @@ PrefabInstance:
       propertyPath: spawnPlayer
       value: 
       objectReference: {fileID: 1970157800}
+    - target: {fileID: 902193300466328194, guid: 987a29cf384cad04aaa458a8ee8e06b4,
+        type: 3}
+      propertyPath: deathPanel
+      value: 
+      objectReference: {fileID: 2037465608}
     - target: {fileID: 1914384250, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
       propertyPath: initialPoint
       value: 
@@ -11086,6 +11091,10 @@ PrefabInstance:
       propertyPath: spawnPlayer
       value: 
       objectReference: {fileID: 159226146}
+    - target: {fileID: 1791979693, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
+      propertyPath: deathPanel
+      value: 
+      objectReference: {fileID: 2069298565}
     - target: {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
       propertyPath: initialPoint
       value: 
@@ -13384,7 +13393,7 @@ GameObject:
   - component: {fileID: 2037465611}
   - component: {fileID: 2037465610}
   m_Layer: 5
-  m_Name: Player1Panel
+  m_Name: DeathPanelP1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13458,7 +13467,7 @@ GameObject:
   - component: {fileID: 2069298568}
   - component: {fileID: 2069298567}
   m_Layer: 5
-  m_Name: Player2Panel
+  m_Name: DeathPanelP2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -43,6 +43,14 @@ public class PortalMaker : MonoBehaviour
             }
         }
 
+        if (Input.GetButton("AButton"))
+        {
+            if (canShoot)
+            {
+                Shot();
+            }
+        }
+
         if (launchTimer)
         {
             time += Time.deltaTime;
