@@ -17,7 +17,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Vector2 movementDirection;
     [SerializeField] float movementSpeed;
 
-    Player player;
     // Start is called before the first frame update
     void Start()
     {

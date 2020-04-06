@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: -8439116753594493479}
   - component: {fileID: 4147908185090674751}
   - component: {fileID: 1342448197}
-  - component: {fileID: 170633308}
   - component: {fileID: 9207014050512765681}
+  - component: {fileID: 711022563625669987}
   m_Layer: 0
   m_Name: NormalBrownZombie
   m_TagString: zombie
@@ -148,6 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1: {fileID: 0}
   player2: {fileID: 0}
+  speed: 1
 --- !u!114 &1342448197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,18 +164,7 @@ MonoBehaviour:
   exitRed: {fileID: 0}
   exitBlue: {fileID: 0}
   defaultSpawn: {fileID: 0}
---- !u!114 &170633308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6884090722432489033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15a5de18a1d466c42b92e42ff7c99300, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  wrongCageColor: redCage
 --- !u!95 &9207014050512765681
 Animator:
   serializedVersion: 3
@@ -194,3 +184,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &711022563625669987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884090722432489033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14615f5c43eead443919a94b1fcd3588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

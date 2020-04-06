@@ -9,7 +9,7 @@ public class NormalZombieBehavior : MonoBehaviour
     private Rigidbody2D body;
 
     private int playerDistance = 10;
-    private float speed = 1f;
+    [SerializeField] float speed = 1f;
 
     private bool followPlayer1 = false;
     private bool followPlayer2 = false;

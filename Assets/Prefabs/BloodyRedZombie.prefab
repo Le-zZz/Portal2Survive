@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 4643163601280428429}
   - component: {fileID: 7767655121900446786}
   - component: {fileID: 1815186174}
+  - component: {fileID: 7943027479600630003}
+  - component: {fileID: 117742415158733688}
   m_Layer: 0
   m_Name: BloodyRedZombie
   m_TagString: Untagged
@@ -150,3 +152,34 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7943027479600630003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4643163601280428416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 074465346e2a5ec41ac7cc80ce8c0009, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1: {fileID: 0}
+  player2: {fileID: 0}
+  speed: 1
+--- !u!114 &117742415158733688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4643163601280428416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc63852d3f987b34fb0a2c14c9fa641f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exitRed: {fileID: 0}
+  exitBlue: {fileID: 0}
+  defaultSpawn: {fileID: 0}
+  wrongCageColor: 

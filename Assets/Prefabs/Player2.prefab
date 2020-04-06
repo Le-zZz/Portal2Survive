@@ -180,8 +180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 801fdfc3b9a940f4aa7672310b43de66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  body: {fileID: 4199153661001289618}
-  movSpeed: 3
   horizontal: P1Horizontal
   vertical: P1Vertical
   animator: {fileID: 5765241973441631724}

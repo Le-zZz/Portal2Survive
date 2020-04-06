@@ -23,6 +23,8 @@ TagManager:
   - cageHeadlessBrown
   - cageBloodyRed
   - cageBloodyBrown
+  - brownCage
+  - redCage
   layers:
   - Default
   - TransparentFX

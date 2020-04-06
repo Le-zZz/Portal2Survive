@@ -10,18 +10,8 @@ public class Teleportation : MonoBehaviour
     [SerializeField] GameObject exitBlue;
     [SerializeField] GameObject defaultSpawn;
 
+    [SerializeField] string wrongCageColor;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -39,6 +29,11 @@ public class Teleportation : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag  == "deadZone")
+        {
+            transform.position = defaultSpawn.transform.position;
+        }
+
+        if (collision.gameObject.tag == wrongCageColor)
         {
             transform.position = defaultSpawn.transform.position;
         }

@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: -2363522827723923411}
   - component: {fileID: 7670817782188475905}
   - component: {fileID: 752147985}
+  - component: {fileID: 4332779734961033629}
   m_Layer: 0
   m_Name: HeadlessBrownZombie
   m_TagString: Untagged
@@ -196,3 +197,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   force: 2.5
   startPoint: {fileID: 332662015}
+--- !u!114 &4332779734961033629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4107921968379068713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc63852d3f987b34fb0a2c14c9fa641f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exitRed: {fileID: 0}
+  exitBlue: {fileID: 0}
+  defaultSpawn: {fileID: 0}
+  wrongCageColor: 

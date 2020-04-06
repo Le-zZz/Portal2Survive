@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NormalZombieRed : MonoBehaviour
+public class BrownCageLevel2 : MonoBehaviour
 {
-    
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "cageNormalRed")
+        if (collision.gameObject.tag == "brownCage")
         {
             Destroy(gameObject);
-            CheckWin.CheckNormalRed();
+            CheckWin2.CheckBrown();
         }
     }
 }

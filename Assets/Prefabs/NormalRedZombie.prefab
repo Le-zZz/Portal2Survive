@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 62265166}
   - component: {fileID: 1245278702}
   - component: {fileID: 2020343246}
-  - component: {fileID: 1283941708}
+  - component: {fileID: 2499421239017760061}
   m_Layer: 0
   m_Name: NormalRedZombie
   m_TagString: zombie
@@ -148,6 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1: {fileID: 0}
   player2: {fileID: 0}
+  speed: 1
 --- !u!95 &1245278702
 Animator:
   serializedVersion: 3
@@ -182,7 +183,8 @@ MonoBehaviour:
   exitRed: {fileID: 0}
   exitBlue: {fileID: 0}
   defaultSpawn: {fileID: 0}
---- !u!114 &1283941708
+  wrongCageColor: brownCage
+--- !u!114 &2499421239017760061
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -191,6 +193,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5853657746520613683}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afdb50970ff494849ab7967f114cb27d, type: 3}
+  m_Script: {fileID: 11500000, guid: 2227a191bc7fcc749b79eb3b1a442da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

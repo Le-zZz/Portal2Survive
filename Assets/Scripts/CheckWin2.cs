@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CheckWin : MonoBehaviour
+public class CheckWin2 : MonoBehaviour
 {
 
     static int redDead = 0;
     static int brownDead = 0;
 
 
-    static int redNeeded = 1;
-    static int brownNeeded = 1;
+    static int redNeeded = 2;
+    static int brownNeeded = 2;
 
 
     [SerializeField] GameObject winPanel;
@@ -37,5 +37,4 @@ public class CheckWin : MonoBehaviour
     {
         brownDead++;
     }
-    
 }
