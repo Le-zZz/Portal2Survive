@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
     [SerializeField] private string restartScene;
-
+    
     public void ReturnToMenu()
     {
         SceneManager.LoadScene("Menu");
+        Time.timeScale = 0f;
     }
 
     public void LoadPlayScene()
