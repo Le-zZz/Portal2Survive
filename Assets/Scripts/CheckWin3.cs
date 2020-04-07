@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class CheckWin3 : MonoBehaviour
 {
-
     static int redDead = 0;
     static int brownDead = 0;
-
-
     static int redNeeded = 2;
     static int brownNeeded = 2;
-
 
     [SerializeField] GameObject winPanel;
 
@@ -26,13 +22,13 @@ public class CheckWin3 : MonoBehaviour
         {
             winPanel.SetActive(true);
         }
-
     }
 
     public static void CheckRed()
     {
         redDead++;
     }
+
     public static void CheckBrown()
     {
         brownDead++;

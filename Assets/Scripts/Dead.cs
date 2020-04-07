@@ -6,8 +6,7 @@ public class Dead : MonoBehaviour
 {
     [SerializeField] Transform waitingPoint;
     [SerializeField] Transform spawnPlayer;
-
-    //public AudioSource bulletSound;
+    [SerializeField] GameObject deathPanel;
 
     private bool isDead = false;
     private bool launchTimer = false;
@@ -15,8 +14,6 @@ public class Dead : MonoBehaviour
     private float timeStart = 0f;
     private float time = 0f;
     private float timeEnd = 5f;
-
-    [SerializeField] GameObject deathPanel;
 
     private void Start()
     {
@@ -41,7 +38,6 @@ public class Dead : MonoBehaviour
             deathPanel.SetActive(false);
         }
     }
-
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

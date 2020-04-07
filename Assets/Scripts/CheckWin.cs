@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class CheckWin : MonoBehaviour
 {
-
     static int redDead = 0;
     static int brownDead = 0;
-
-
     static int redNeeded = 1;
     static int brownNeeded = 1;
-
 
     [SerializeField] GameObject winPanel;
 
@@ -27,16 +23,15 @@ public class CheckWin : MonoBehaviour
             winPanel.SetActive(true);
             Time.timeScale = 0f;
         }
-
     }
 
     public static void CheckRed()
     {
         redDead++;
     }
+
     public static void CheckBrown()
     {
         brownDead++;
-    }
-    
+    }  
 }

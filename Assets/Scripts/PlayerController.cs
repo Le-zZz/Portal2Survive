@@ -13,17 +13,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Animator animator;
   
     [SerializeField] GameObject portalSpawn;
-
     [SerializeField] Vector2 movementDirection;
     [SerializeField] float movementSpeed;
 
-    // Start is called before the first frame update
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         movement.x = Input.GetAxis(horizontal);

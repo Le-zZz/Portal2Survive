@@ -48,7 +48,6 @@ public class GameOver : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-
         isDeadP1 = false;
         isDeadP2 = false;
     }

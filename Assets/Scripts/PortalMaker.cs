@@ -7,15 +7,8 @@ public class PortalMaker : MonoBehaviour
 {
     [SerializeField] Transform spawnPoint;
     [SerializeField] Transform initialPoint;
-
     [SerializeField] GameObject portal;
     [SerializeField] string deadZone;
-
-    //[SerializeField] Transform spawnUp;
-    //[SerializeField] Transform spawnDown;
-    //[SerializeField] Transform spawnLeft;
-    //[SerializeField] Transform spawnRight;
-
     [SerializeField] private AudioSource portalSound;
 
     private bool canShoot = true;
@@ -33,8 +26,6 @@ public class PortalMaker : MonoBehaviour
 
     private void Update()
     {
-        
-
         if (Input.GetKeyDown(KeyCode.Q))
         {
             if (canShoot)

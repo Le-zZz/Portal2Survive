@@ -4,18 +4,15 @@ using UnityEngine;
 
 public class HeadlessZombieBehavior : MonoBehaviour
 {
- 
-    Rigidbody2D body;
-    [SerializeField] float force = 2f;
-
     [SerializeField] Transform startPoint;
+    [SerializeField] float force = 2f;
+    private Rigidbody2D body;
+    private Vector3 lastVelocity;
 
-    Vector3 lastVelocity;
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
         body.AddForce(startPoint.up * force, ForceMode2D.Impulse);
     }
-
 }
 

@@ -5,33 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-
     [SerializeField] private string restartScene;
-    public void LoadScene(string sceneName)
-    {
-        SceneManager.LoadScene(sceneName);
-        Time.timeScale = 1f;
-    }
-
-    public void LoadPlayScene()
-    {
-        SceneManager.LoadScene("Level_1");
-        Time.timeScale = 1f;
-    }
-
-    public void LoadCreditsScene()
-    {
-        SceneManager.LoadScene("Credits");
-    }
 
     public void ReturnToMenu()
     {
         SceneManager.LoadScene("Menu");
     }
 
-    public void QuitGame()
+    public void LoadPlayScene()
     {
-        Application.Quit();
+        Time.timeScale = 0f;
+        SceneManager.LoadScene("Level_1");
     }
 
     public void GoToLevel2()
@@ -50,5 +34,15 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene(restartScene);
         Time.timeScale = 1f;
+    }
+
+    public void LoadCreditsScene()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }

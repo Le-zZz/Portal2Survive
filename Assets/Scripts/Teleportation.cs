@@ -5,11 +5,9 @@ using UnityEngine;
 
 public class Teleportation : MonoBehaviour
 {
-
     [SerializeField] GameObject exitRed;
     [SerializeField] GameObject exitBlue;
     [SerializeField] GameObject defaultSpawn;
-
     [SerializeField] string wrongCageColor;
 
 

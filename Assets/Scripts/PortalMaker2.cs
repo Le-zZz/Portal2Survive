@@ -6,10 +6,8 @@ public class PortalMaker2 : MonoBehaviour
 {
     [SerializeField] Transform spawnPoint;
     [SerializeField] Transform initialPoint;
-
     [SerializeField] GameObject portal;
     [SerializeField] string deadZone;
-
     [SerializeField] private AudioSource portalSound;
 
     private bool canShoot = true;
