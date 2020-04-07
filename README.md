@@ -1,12 +1,11 @@
 # Post mortem
 
 ## Points positifs
-Lors du dévéloppement du jeu, les intégrations des différentes mécaniques ont été fortement intéressantes à intégré et plus particulièrement :
--Les systèmes de téléportation des zombies, la coopération et le level design
+Lors du dévéloppement du jeu, les intégrations des différentes mécaniques ont été fortement intéressantes à intégrer, plus particulièrement le système de téléportation des zombies, la coopération et le level design.
 
 Il y a eu une bonne répartition des tâches et la communication a toujours été présente, que ce soit pour les bonnes et les pires situations rencontrées. 
 
-Les phases de test ont permis de voir des problèmes et on a réussi a presque tous les fixés.
+Les phases de test ont permis de voir des problèmes et on a réussi à presque tous les fixés.
 
 Pour finir, le jeu ressemble globlament assez bien à ce dont on avait imaginé initialement et ce fut une bonne expérience avec un résultat satisfaisant.
 
