@@ -5,9 +5,20 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject pausePanel;
+    bool isPaused = false;
 
     private void Update()
     {
+
+        if(isPaused)
+        {
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            Time.timeScale = 1f;
+        }
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             ActivatePauseMenu();
@@ -17,12 +28,12 @@ public class PauseMenu : MonoBehaviour
     public void ActivatePauseMenu()
     {
         pausePanel.SetActive(true);
-        Time.timeScale = 0;
+        isPaused = true;
     }
 
     public void DesactivatePanelMenu()
     {
         pausePanel.SetActive(false);
-        Time.timeScale = 1;
+        isPaused = false;
     }
 }
