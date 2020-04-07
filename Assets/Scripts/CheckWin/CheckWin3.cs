@@ -27,10 +27,12 @@ public class CheckWin3 : MonoBehaviour
     public static void CheckRed()
     {
         redDead++;
+        Debug.Log(redDead);
     }
 
     public static void CheckBrown()
     {
         brownDead++;
+        Debug.Log(brownDead);
     }
 }
