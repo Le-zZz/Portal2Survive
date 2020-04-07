@@ -7597,6 +7597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04b2812950cdaa240a950341c7d01d7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  restartScene: 
 --- !u!4 &1206066050
 Transform:
   m_ObjectHideFlags: 0
@@ -7645,8 +7646,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000019073, y: 23}
-  m_SizeDelta: {x: 646.7, y: 223.8}
+  m_AnchoredPosition: {x: -0.000012755, y: 12.7}
+  m_SizeDelta: {x: 642.8, y: 256.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1243001520
 MonoBehaviour:
@@ -7673,6 +7674,9 @@ MonoBehaviour:
 
 
     Audio : noirenex & rhodesmas
+
+
+    Programmers : Bryan & Lorna
 
 '
   m_isRightToLeft: 0
@@ -7743,12 +7747,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1243001520}
-    characterCount: 109
+    characterCount: 138
     spriteCount: 0
-    spaceCount: 21
-    wordCount: 12
+    spaceCount: 27
+    wordCount: 15
     linkCount: 0
-    lineCount: 6
+    lineCount: 8
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
