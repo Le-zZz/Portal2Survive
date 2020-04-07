@@ -7,6 +7,7 @@ public class GameOver : MonoBehaviour
 
     bool isDeadP1 = false;
     bool isDeadP2 = false;
+    bool isGameOver = false;
 
     [SerializeField] GameObject gameOverPanel;
     [SerializeField] GameObject deathPanelP1;
@@ -22,14 +23,14 @@ public class GameOver : MonoBehaviour
         if (isDeadP1 && isDeadP2)
         {
             gameOverPanel.SetActive(true);
-            deathPanelP1.SetActive(false);
-            deathPanelP2.SetActive(false);
+            isGameOver = true;
             Time.timeScale = 0f;
         }
-        else
+
+        if (isGameOver)
         {
-            gameOverPanel.SetActive(false);
-            Time.timeScale = 1f;
+            deathPanelP1.SetActive(false);
+            deathPanelP2.SetActive(false);
         }
     }
 

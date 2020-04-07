@@ -15203,12 +15203,12 @@ PrefabInstance:
     - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
         type: 3}
       propertyPath: horizontal
-      value: HorizontalP2
+      value: H2
       objectReference: {fileID: 0}
     - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
         type: 3}
       propertyPath: vertical
-      value: VerticalP2
+      value: V2
       objectReference: {fileID: 0}
     - target: {fileID: 1971530563, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
       propertyPath: initialPoint
