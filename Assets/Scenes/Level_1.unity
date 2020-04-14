@@ -14339,7 +14339,7 @@ TextMesh:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567259170}
   m_Text: P2
-  m_OffsetZ: 0
+  m_OffsetZ: -1
   m_CharacterSize: 0.67
   m_LineSpacing: 1
   m_Anchor: 0
@@ -14516,7 +14516,7 @@ TextMesh:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573434726}
   m_Text: P1
-  m_OffsetZ: 0
+  m_OffsetZ: -1
   m_CharacterSize: 0.67
   m_LineSpacing: 1
   m_Anchor: 0
