@@ -8,6 +8,10 @@ public class Dead : MonoBehaviour
     [SerializeField] Transform spawnPlayer;
     [SerializeField] GameObject deathPanel;
 
+    [SerializeField] GameObject portal;
+    [SerializeField] Transform initialPointPortal;
+
+
     private bool isDead = false;
     private bool launchTimer = false;
 
@@ -45,6 +49,7 @@ public class Dead : MonoBehaviour
         {
             launchTimer = true;
             transform.position = waitingPoint.position;
+            portal.transform.position = initialPointPortal.transform.position;
         }
     }
 }

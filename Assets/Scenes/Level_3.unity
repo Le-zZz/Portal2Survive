@@ -10087,6 +10087,16 @@ PrefabInstance:
       propertyPath: deathPanel
       value: 
       objectReference: {fileID: 2037465608}
+    - target: {fileID: 902193300466328194, guid: 987a29cf384cad04aaa458a8ee8e06b4,
+        type: 3}
+      propertyPath: portal
+      value: 
+      objectReference: {fileID: 527865274}
+    - target: {fileID: 902193300466328194, guid: 987a29cf384cad04aaa458a8ee8e06b4,
+        type: 3}
+      propertyPath: initialPointPortal
+      value: 
+      objectReference: {fileID: 166423416}
     - target: {fileID: 1914384250, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
       propertyPath: initialPoint
       value: 
@@ -12582,6 +12592,14 @@ PrefabInstance:
       propertyPath: deathPanel
       value: 
       objectReference: {fileID: 2069298565}
+    - target: {fileID: 1791979693, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
+      propertyPath: portal
+      value: 
+      objectReference: {fileID: 1719467140}
+    - target: {fileID: 1791979693, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
+      propertyPath: initialPointPortal
+      value: 
+      objectReference: {fileID: 166423416}
     - target: {fileID: 4041538573791831357, guid: cdce5cee0e3707f4e9ebeb69f00db730,
         type: 3}
       propertyPath: horizontal
