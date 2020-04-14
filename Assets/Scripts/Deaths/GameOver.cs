@@ -13,24 +13,25 @@ public class GameOver : MonoBehaviour
     [SerializeField] GameObject deathPanelP1;
     [SerializeField] GameObject deathPanelP2;
 
-    private void Start()
-    {
-        gameOverPanel.SetActive(false);
-        Time.timeScale = 1f;
-    }
     void Update()
     {
-        if (isDeadP1 && isDeadP2)
-        {
-            gameOverPanel.SetActive(true);
-            isGameOver = true;
-            Time.timeScale = 0f;
-        }
 
         if (isGameOver)
         {
             deathPanelP1.SetActive(false);
             deathPanelP2.SetActive(false);
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            Time.timeScale = 1f;
+        }
+
+        if (isDeadP1 && isDeadP2)
+        {
+            gameOverPanel.SetActive(true);
+            isGameOver = true;
+            Time.timeScale = 0f;
         }
     }
 
@@ -51,5 +52,6 @@ public class GameOver : MonoBehaviour
     {
         isDeadP1 = false;
         isDeadP2 = false;
+        Time.timeScale = 1f;
     }
 }
