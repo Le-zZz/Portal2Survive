@@ -10072,6 +10072,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2173645620048859678, guid: 987a29cf384cad04aaa458a8ee8e06b4,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173645620048859678, guid: 987a29cf384cad04aaa458a8ee8e06b4,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.37159586
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173645620048859678, guid: 987a29cf384cad04aaa458a8ee8e06b4,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 902193300466328194, guid: 987a29cf384cad04aaa458a8ee8e06b4,
         type: 3}
       propertyPath: waitingPoint
@@ -12580,6 +12595,16 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 49ec7643411b6d044bec4951fbb2faeb, type: 2}
+    - target: {fileID: 3753836908207762952, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.9951428
+      objectReference: {fileID: 0}
+    - target: {fileID: 3753836908207762952, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1791979693, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
       propertyPath: waitingPoint
       value: 

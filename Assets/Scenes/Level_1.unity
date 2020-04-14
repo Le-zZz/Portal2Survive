@@ -10268,6 +10268,21 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.7651761
       objectReference: {fileID: 0}
+    - target: {fileID: 5853657746520613680, guid: 07b72e42bfba3ca489f7bfaad356ed92,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5853657746520613680, guid: 07b72e42bfba3ca489f7bfaad356ed92,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.18396229
+      objectReference: {fileID: 0}
+    - target: {fileID: 5853657746520613680, guid: 07b72e42bfba3ca489f7bfaad356ed92,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.27372617
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b72e42bfba3ca489f7bfaad356ed92, type: 3}
 --- !u!1 &784150414
@@ -12963,6 +12978,21 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.7649144
       objectReference: {fileID: 0}
+    - target: {fileID: 6884090722432489035, guid: 15fba3a500c354e42a7335a453232010,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884090722432489035, guid: 15fba3a500c354e42a7335a453232010,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.686747
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884090722432489035, guid: 15fba3a500c354e42a7335a453232010,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15fba3a500c354e42a7335a453232010, type: 3}
 --- !u!1 &1354874735
@@ -13994,6 +14024,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2173645620048859678, guid: 987a29cf384cad04aaa458a8ee8e06b4,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173645620048859678, guid: 987a29cf384cad04aaa458a8ee8e06b4,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.37159586
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173645620048859678, guid: 987a29cf384cad04aaa458a8ee8e06b4,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 902193300466328194, guid: 987a29cf384cad04aaa458a8ee8e06b4,
         type: 3}
       propertyPath: waitingPoint
@@ -14019,6 +14064,14 @@ PrefabInstance:
       propertyPath: initialPointPortal
       value: 
       objectReference: {fileID: 914348089}
+    - target: {fileID: 1147353769, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
+      propertyPath: horizontal
+      value: Horizontal
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147353769, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
+      propertyPath: vertical
+      value: Vertical
+      objectReference: {fileID: 0}
     - target: {fileID: 1914384250, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
       propertyPath: initialPoint
       value: 
@@ -14031,14 +14084,6 @@ PrefabInstance:
       propertyPath: portalSound
       value: 
       objectReference: {fileID: 1548738215}
-    - target: {fileID: 1147353769, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
-      propertyPath: horizontal
-      value: Horizontal
-      objectReference: {fileID: 0}
-    - target: {fileID: 1147353769, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
-      propertyPath: vertical
-      value: Vertical
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 987a29cf384cad04aaa458a8ee8e06b4, type: 3}
 --- !u!4 &1548738213 stripped
@@ -15073,6 +15118,21 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 49ec7643411b6d044bec4951fbb2faeb, type: 2}
+    - target: {fileID: 3753836908207762952, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.9951428
+      objectReference: {fileID: 0}
+    - target: {fileID: 3753836908207762952, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3753836908207762952, guid: cdce5cee0e3707f4e9ebeb69f00db730,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1791979693, guid: cdce5cee0e3707f4e9ebeb69f00db730, type: 3}
       propertyPath: waitingPoint
       value: 
@@ -17236,7 +17296,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2130319961}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c6fa79c9c50f1404f91878b717a45403, type: 3}
